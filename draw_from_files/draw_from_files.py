@@ -18,7 +18,7 @@ G = nx.read_edgelist("edge.txt", nodetype=int)
 ## ここから座標関係
 
 # 座標情報をndarray型として読み込む
-pos_array=numpy.loadtxt("cood.txt", dtype=int)
+pos_array=numpy.loadtxt("coord.txt", dtype=int)
 
 # 座標情報は辞書型で表す
 pos = {}
